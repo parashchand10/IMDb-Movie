@@ -23,7 +23,7 @@ Instead of manually checking movie ratings and release years, this system extrac
 - Organizes data into table
 - Saves the final output as CSV
 
-**Note**: Fully automated – No manual data entry required but write some python code
+**Note**: Fully automated – No manual data entry required but you only need to run the python code.
 
 
 ## Output
