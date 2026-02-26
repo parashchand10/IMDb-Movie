@@ -3,6 +3,7 @@
 ## Overview
 
 This project automatically collects data of the Top 20 Movies from the IMDb website using Python.
+
 Instead of manually checking movie ratings and release years, this system extracts the data and saves it into a structured CSV file.
 
 
