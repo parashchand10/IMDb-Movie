@@ -1,36 +1,40 @@
-# IMDb-Movie
-This project focuses on scraping the Movies data from the IMDb website using Python and BeautifulSoup. It extracts movie names, release years, and ratings, then organizes the data into a structured format and saves it as a CSV file.
+# IMDb Top Movies Scraper
 
-## Project Overview
+## Overview
 
-This project demonstrates how to perform Web Scraping on the
-IMDb website using Python.
+This project automatically collects data of the Top 20 Movies from the IMDb website using Python.
+Instead of manually checking movie ratings and release years, this system extracts the data and saves it into a structured CSV file.
 
-The goal of this project is to extract the following details of the Top 20 Movies:
 
-1. Movie Name
-2. Release Year
-3. IMDb Rating
+## What This Project Does
 
-After extracting the data, it is stored in a structured CSV file using Pandas DataFrame.
+- Collects Movie Names
+- Extracts Release Years
+- Fetches IMDb Ratings
+- Converts website data into table format
+- Saves the data into a CSV file
 
-## Technologies Used
 
-1. Python
-2. Requests
-3. BeautifulSoup
-4. LXML Parser
-5. Pandas
-6. CSV
+## How It Works
 
-## Project Workflow
+- Connects to IMDb website
+- Reads movie data from web page
+- Extracts required details
+- Organizes data into table
+- Saves the final output as CSV
 
-1. Send HTTP Request to IMDb Server
-2. Parse HTML Content using BeautifulSoup
-3. Extract:
- - Movie Names
- - Release Years
- - Movie Ratings
+**Note**: Fully automated – No manual data entry required but write some python code
 
-5. Store Data into Pandas DataFrame
-6. Export Data to CSV File
+
+## Output
+
+After running the project, you will get:
+- Top 20 imdb movies.csv
+
+
+## Why Use This?
+
+- Saves time
+- Reduces manual work
+- Provides ready-to-use dataset
+- Useful for Data Analysis & ML Projects
